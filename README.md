@@ -1,7 +1,8 @@
 <p align="center">
   <picture>
-    <source srcset="assets/hero.svg" type="image/svg+xml"/>
-    <img src="assets/hero.png" alt="noriglaze" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg"/>
+    <img src="assets/hero-light.svg" alt="noriglaze" width="100%"/>
   </picture>
 </p>
 
