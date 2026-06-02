@@ -1,26 +1,39 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/status-work%20in%20progress-orange" alt="Status"/>
-  <img src="https://img.shields.io/badge/ecosystem-norikit-32C572" alt="norikit"/>
-  <img src="https://img.shields.io/badge/license-AGPL--3.0-blue" alt="License"/>
-</p>
-
-<p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg"/>
-    <img src="assets/hero-light.svg" alt="noriglaze" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/norikit/norikit/main/assets/noriglaze/hero/dark_theme.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/norikit/norikit/main/assets/noriglaze/hero/light_theme.svg"/>
+    <img src="https://raw.githubusercontent.com/norikit/norikit/main/assets/noriglaze/hero/light_theme.svg" alt="noriglaze" width="100%"/>
   </picture>
 </p>
 
 <p align="center">
-  <strong>noriglaze</strong> is the theme manager for the <strong>norikit</strong> ecosystem.<br/>
-  It stores your themes, serves them to the other norikit tools, and switches the<br/>
-  active theme across all of them at once — so your tooling stays visually cohesive.
+  <strong>noriglaze</strong> — the theme manager that rethemes every norikit tool at once.<br/>
+  Part of the <strong>norikit</strong> ecosystem.
+  
 </p>
 
 > [!NOTE]
 > Work in progress. noriglaze is in early development and not yet usable.
 
+## About
+
+A [**norikit**](https://github.com/norikit) project — part of a suite of native macOS
+desktop-customization tools, built to be fast and visually cohesive.
+
+<!-- Fill in as the project takes shape: why it exists, what it does, how it's built. -->
+
+## Documentation
+
+Design knowledge lives in the **[`ai-docs/`](ai-docs/)** knowledge base. Active work is
+tracked under **[`tasks/`](tasks/)**.
+
+> **Working in this repo with an AI agent?** Start at [`CLAUDE.md`](CLAUDE.md).
+
+## Building
+
+Requires macOS 13+.
+
+
 ## License
 
-[AGPL-3.0](LICENSE)
+[AGPL-3.0](LICENSE).
